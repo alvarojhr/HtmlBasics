@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer html</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="www.google.com">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="otra.html">Otra</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col"><img id="cat-big" src="img/cat_1.jpg" alt="" /></div>
+        <div class="col">
+          <h1 class="text-blue">Bienvenidos a mi página web</h1>
+          <h2>Esta es la mejor página web</h2>
+          <h5>Estamos aprendiendo a construir paginas web</h5>
+
+          <div id="parrafo-principal">
+            <p>
+              <strong>Lorem ipsum dolor </strong> sit amet, consectetur
+              adipiscing elit. Vivamus ac urna interdum, vulputate erat rutrum,
+              hendrerit enim. Phasellus ullamcorper consequat dolor a
+              consectetur. Nunc pharetra sodales sollicitudin. Donec lacinia
+              dolor ipsum, ut mollis metus tristique at. Aliquam tristique
+              varius rhoncus. Ut malesuada dui eu tortor auctor aliquet. Aliquam
+              maximus orci at ex placerat, et pharetra quam eleifend. Nullam
+              vitae semper enim, at venenatis metus. Cras feugiat facilisis
+              suscipit. Mauris placerat sem felis. Maecenas ligula mauris,
+              fermentum malesuada urna porttitor, commodo hendrerit nisl.
+              <br />
+              Quisque non ipsum vitae tellus hendrerit dignissim vel suscipit
+              sapien. Nam turpis neque, viverra vel ligula at, bibendum vehicula
+              velit. Maecenas condimentum tempus lorem, vel mollis augue
+              tincidunt in. Suspendisse quis feugiat est, quis imperdiet mi.
+              Praesent fermentum erat vel purus dictum, quis sagittis nunc
+              tempor. Aliquam enim dui, cursus ac nunc in, semper ultrices orci.
+              Morbi pharetra libero sapien, a ornare magna bibendum sed. Aliquam
+              non risus pellentesque, sagittis libero et, tincidunt eros.
+              Suspendisse nulla nunc, consequat ut ipsum vitae, consectetur
+              imperdiet nisl. Curabitur eget tellus mauris. Mauris auctor diam
+              augue, eget consectetur magna mattis sit amet. Nullam a ipsum
+              congue nisl tincidunt tempus eu non diam. Etiam ut enim leo.
+              Praesent efficitur erat a vestibulum condimentum.
+            </p>
+          </div>
+
+          <button onclick="cambiarTexto()" class="btn btn-primary">
+            Click
+          </button>
+
+          <span id="textoACambiar" class="text-red">Esta es una frase</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

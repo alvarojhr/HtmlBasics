@@ -1,0 +1,14 @@
+.text-blue {
+  color: blue;
+  text-align: center;
+}
+
+#cat-big {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-red {
+  color: red;
+}
